@@ -25,7 +25,6 @@ p{
   height: auto;
 }
 .name{
-  border: solid red;
   margin-top: 120px;
   width: 35vw;
   font-size: 55px;
@@ -34,27 +33,57 @@ p{
   font-family: 'unbounded';
 }
 .creative{
-  border: solid blue;
   font-size: 55px;
   width: 35vw;
-  font-family: 'ingrid darling';
 }
 .engineer{
-  border: solid lime;
   font-size: 55px;
   width: 35vw;
 }
 .human{
-  border: solid yellow;
   font-size: 55px;
   width: 35vw;
   color: red;
 }
 .marq{
   border: solid purple;
-  height: 25vh;
+  color: red;
+  font-size: 18px;
+  height: 5vh
 }
 .scroll{
   height: 100%;
   width: 100%;
+}
+.skills{
+  height: 15vh;
+  margin-top: 150px;
+}
+.skillpic{
+  height: 100%;
+}
+.school{
+  height: 8vh;
+}
+.schoolpic{
+  height: 100%;
+}
+.infobox{
+  border: solid blue;
+  height: 10vh;
+}
+.left{
+  border: solid black;
+  width: 25%;
+  height: auto;
+}
+.instagram{
+  color: orangered;
+  font-size: 20px;
+  font-family: 'vt323';
+}
+.email{
+  color: blue;
+  font-size: 20px;
+  font-family: 'vt323';
 }
