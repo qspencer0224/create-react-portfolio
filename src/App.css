@@ -2,5 +2,59 @@
   text-align: center;
   font-family: 'sans-serif';
 }
+.menuItems{
+  background-color: rgb(51, 51, 51);
+  display: flex;
+  justify-content: space-around;
+  font-family: 'unbounded';
+}
 
+p{
+  color: white;
+  height: 4vh;
+  width: 10vw;
+  border-radius: 15px;
 
+}
+.title{
+  color: black;
+  font-family: "unbounded";
+  font-size: 100px;
+}
+.homebox{
+  height: auto;
+}
+.name{
+  border: solid red;
+  margin-top: 120px;
+  width: 35vw;
+  font-size: 55px;
+  font-weight: bold;
+  height: auto;
+  font-family: 'unbounded';
+}
+.creative{
+  border: solid blue;
+  font-size: 55px;
+  width: 35vw;
+  font-family: 'ingrid darling';
+}
+.engineer{
+  border: solid lime;
+  font-size: 55px;
+  width: 35vw;
+}
+.human{
+  border: solid yellow;
+  font-size: 55px;
+  width: 35vw;
+  color: red;
+}
+.marq{
+  border: solid purple;
+  height: 25vh;
+}
+.scroll{
+  height: 100%;
+  width: 100%;
+}
