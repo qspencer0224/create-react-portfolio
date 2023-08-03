@@ -8,7 +8,6 @@
   justify-content: space-around;
   font-family: 'unbounded';
 }
-
 p{
   color: white;
   height: 4vh;
@@ -25,7 +24,6 @@ p{
   height: auto;
 }
 .name{
-  margin-top: 120px;
   width: 35vw;
   font-size: 55px;
   font-weight: bold;
@@ -46,8 +44,8 @@ p{
   color: red;
 }
 .marq{
-  border: solid purple;
   color: red;
+  font-weight: bold;
   font-size: 18px;
   height: 5vh
 }
@@ -69,11 +67,12 @@ p{
   height: 100%;
 }
 .infobox{
-  border: solid blue;
   height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .left{
-  border: solid black;
   width: 25%;
   height: auto;
 }
@@ -83,7 +82,26 @@ p{
   font-family: 'vt323';
 }
 .email{
-  color: blue;
   font-size: 20px;
+  color: blue;
   font-family: 'vt323';
+}
+.bigbox{
+  margin-top: 120px;
+  height: 65vh;
+}
+.details{
+  width: 40%;
+}
+.artbox{
+  border: solid black;
+}
+.rowone{
+  border: solid red;
+}
+.rowtwo{
+  border: solid blue;
+}
+.rowthree{
+  border: solid lime
 }

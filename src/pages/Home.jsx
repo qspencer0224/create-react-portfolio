@@ -9,12 +9,18 @@ function Home() {
   return (
       <>
         <Nav_UI/>
-        <div className='homeBackground'>
-          <div className='title'>"THE IDEA BOOK"</div>
-          <div className='name'>-QUENTON SPENCER</div>
-          <div className="creative">-creative</div>
-          <div className='engineer'>-software engineer</div>
-          <div className='human'>-human.</div>
+        <div className='title'>"THE IDEA BOOK"</div>
+        <div className="bigbox">
+          <div className="details">
+            <div className='name'>-QUENTON SPENCER</div>
+            <div className="creative">-creative</div>
+            <div className='engineer'>-software engineer</div>
+            <div className='human'>-human.</div>
+          </div>
+          div.left
+
+        </div>
+          
 
           <div className="skills">
             <img src='https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-devextreme-multi-purpose-controls-html-javascript-3.png' alt='' className='skillpic'/>
@@ -34,7 +40,6 @@ function Home() {
           <Marquee>
           <div className='marq'>"Random quote here, i'm just typing stuff just for styling purposes" -Quenton Spencer</div>
           </Marquee>
-        </div>
       </>
   )
 }
