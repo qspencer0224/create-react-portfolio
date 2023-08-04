@@ -1,5 +1,6 @@
 import React from 'react'
 import Nav_UI from '../components/Nav_UI'
+import Marquee from 'react-fast-marquee'
 
 function Community() {
   return (
@@ -20,8 +21,13 @@ function Community() {
             <div className="star">
             <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Red_star.svg/1235px-Red_star.svg.png' alt='' id='star2' />
         </div>
+        </div>
         <div className="resources">RESOURCES</div>
-        
+        <div className="resource" id='resource1'>
+            <img src='https://images-us.bookshop.org/ingram/9780415968188.jpg?height=500&v=v2' alt='' id='resource' />
+        </div>
+        <div className='resource' id='resource2'>
+            <img src='https://press.uchicago.edu/.imaging/mte/ucp/medium/dam/ucp/books/jacket/978/09/21/68/9780921689263.jpg/jcr:content/9780921689263.jpg' alt='' id='resource' />
         </div>
     </div>
   )
