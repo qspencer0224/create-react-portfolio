@@ -77,6 +77,47 @@ p{
   height: 100%;
   width: 100%;
 }
+#com1{
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'inter tight';
+}
+#com2{
+  color: red;
+  font-family: 'contrail one';
+  font-size: 30px;
+}
+#star1{
+  margin-top: 20px;
+  height: 3vh;
+  width: 1.5vw;
+  margin-left: 650px;
+}
+#star2{
+  margin-top: 20px;
+  height: 3vh;
+  width: 1.5vw;
+}
+#star{
+  height: 100%;
+  width: 100%;
+}
+#pcom{
+  color: red;
+}
+#pcom2{
+  font-size: 20px;
+  font-family: 'oswald';
+}
+.p4p{
+  height: 60vh;
+  width: 25vw;
+  margin-top: 20px;
+  margin-left: 500px;
+  font-size: 20px;
+  font-family: 'oswald';
+}
 .title{
   color: black;
   font-family: "unbounded";
