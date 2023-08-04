@@ -17,8 +17,6 @@ function Home() {
             <div className='engineer'>-software engineer</div>
             <div className='human'>-human.</div>
           </div>
-          div.left
-
         </div>
           
 

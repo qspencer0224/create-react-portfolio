@@ -6,6 +6,7 @@ import Portfolio from './pages/Portfolio';
 import AboutMe from './pages/AboutMe';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
+import Community from './pages/Community';
 
 const AppContext = createContext;
 
@@ -20,6 +21,7 @@ function App() {
         <Route path='/aboutme' element={<AboutMe/>}/>
         <Route path='/portfolio' element={<Portfolio/>}/>
         <Route path='/contact' element={<Contact/>}/>
+        <Route path='/community' element={<Community/>}/>
       </Routes>
         
       {/* </AppContext.Provider> */}

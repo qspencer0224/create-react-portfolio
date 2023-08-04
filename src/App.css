@@ -13,13 +13,76 @@ p{
   height: 4vh;
   width: 10vw;
   border-radius: 15px;
-
+}
+.pbox{
+  border: solid black;
+  width: 45vw;
+  height: 60vh;
+  margin-left: 350px;
+}
+#p1{
+  border: solid purple;
+  color: red ;
+  text-align: center;
+}
+#about{
+  color: black;
+  font-family: 'oswald';
+}
+.aboutbox{
+  border-bottom: solid black;
+  border-width: .1em;
+  height: 60vh;
+  margin: 10px;
+  width: 55vw;
+  margin-left: 300px;
+}
+.aboutp1{
+  color: black;
+  font-size: 55px;
+  font-family: 'vt323';
+}
+.aboutp2{
+  color: black;
+  font-size: 20px;
+  font-family: 'dm sans';
+  margin-top: 20px;
+}
+.aboutp3{
+  margin-top: 30px;
+  color: black;
+  font-size: 20px;
+  font-family: 'inter tight';
+}
+.aboutp4{
+  margin-top: 50px;
+  color: black;
+  font-size: 20px;
+  font-family: 'unbounded';
+}
+#community{
+  color: black;
+  font-family: "rock 3d";
+  font-size: 100px;
+}
+.boondocks{
+  width: 35vw;
+  margin-left: 420px;
+  margin-top: 50px;
+  height: 40vh;
+  border: solid black;
+  border-width: .1em;
+}
+#boondocks{
+  height: 100%;
+  width: 100%;
 }
 .title{
   color: black;
   font-family: "unbounded";
   font-size: 100px;
 }
+
 .homebox{
   height: auto;
 }
@@ -191,7 +254,7 @@ p{
 }
 #dthree{
   border: solid maroon;
-  height: 15%;
+  height: 12%;
 }
 #gitone{
   border: solid purple;

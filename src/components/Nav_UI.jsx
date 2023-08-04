@@ -17,6 +17,11 @@ function Nav_UI() {
         <p>Portfolio</p>
         </Link>
 
+        <Link to="/community">
+        <p>Community</p>
+        </Link>
+
+
         <Link to="/contact">
         <p>Contact</p>
         </Link>        
