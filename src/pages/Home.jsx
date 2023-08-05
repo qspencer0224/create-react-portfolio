@@ -7,7 +7,7 @@ import Marquee from 'react-fast-marquee'
 function Home() {
   const {} = useContext(AppContext)
   return (
-      <>
+      <div className='homebackground'>
         <Nav_UI/>
         <div className='title'>"THE IDEA BOOK"</div>
         <div className="bigbox">
@@ -38,7 +38,7 @@ function Home() {
           <Marquee>
           <div className='marq'>"Random quote here, i'm just typing stuff just for styling purposes" -Quenton Spencer</div>
           </Marquee>
-      </>
+      </div>
   )
 }
 

@@ -8,7 +8,7 @@ const AppContextProvider = (props) => {
     //all global context goes here (uesState, useEffect, etc.)
     
     const getData = async () =>{
-        const response = await axios.get('https://github.com/qspencer0224?tab=repositories')
+        const response = await axios.get('https://api.github.com/users/qspecner0224/repos')
         const info = response.data
         console.log(info)
     }

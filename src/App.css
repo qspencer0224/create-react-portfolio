@@ -8,6 +8,9 @@
   justify-content: space-around;
   font-family: 'unbounded';
 }
+.homebackground{
+  background-color: rgb(91, 135, 255);
+}
 p{
   color: white;
   height: 4vh;
