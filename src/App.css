@@ -127,7 +127,30 @@ p{
   font-family: "unbounded";
   font-size: 100px;
 }
-
+#contact{
+  font-family: 'gruppo';
+  font-size: 100px;
+}
+.discordbox{
+  height: 8vh;
+  width: 16vw;
+  margin-left: 550px;
+  margin-top: 80px;
+}
+#discordbox{
+  border: solid black;
+  height: 50vh;
+  width: 55vw;
+  margin-left: 300px;
+}
+#discord{
+  height: 100%;
+  width: 100%;
+}
+.discord{
+  font-family: 'gugi';
+  font-size: 30px;
+}
 .homebox{
   height: auto;
 }
@@ -164,6 +187,26 @@ p{
   width: 15vw;
   margin-top: 50px;
   margin-left: 550px;
+}
+.responsibility{
+  margin-top: 50px;
+  height: 30vh;
+  width: 25vw;
+  margin-left: 480px;
+}
+#responsibility{
+  height: 100%;
+  width: 100%;
+}
+.more{
+  border-width: .1em;
+  margin-left: 550px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  color: red;
+  font-size: 20px;
+  width: 14vw;
+  font-family: 'vt323';
 }
 .marq{
   color: red;

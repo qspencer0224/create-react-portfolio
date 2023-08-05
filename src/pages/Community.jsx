@@ -29,6 +29,10 @@ function Community() {
         <div className='resource' id='resource2'>
             <img src='https://press.uchicago.edu/.imaging/mte/ucp/medium/dam/ucp/books/jacket/978/09/21/68/9780921689263.jpg/jcr:content/9780921689263.jpg' alt='' id='resource' />
         </div>
+        <div className="responsibility">
+            <img src='https://i.ytimg.com/vi/tp4FGAv2gks/maxresdefault.jpg' alt='' id='responsibility' />
+        </div>
+        <div className="more">more coming soon</div>
     </div>
   )
 }
