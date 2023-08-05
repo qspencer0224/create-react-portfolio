@@ -164,10 +164,36 @@ p{
   color: #5865f2;
 }
 .gmail{
+  margin-top: 50px;
   font-family: 'gasoek one';
   font-size: 30px;
   color: lightseagreen;
-  overflow-y: scroll;
+}
+#gmail1{
+  font-family: 'inter tight';
+  width: 35vw;
+  margin-left: 440px;
+}
+#gmail2{
+  font-family: 'vt323';
+  color: red;
+  font-size: 20px;
+}
+.insta{
+  margin-top: 50px;
+  font-family: 'gasoek one';
+  font-size: 30px;
+  color: rgb(255, 103, 15);
+}
+#insta1{
+  font-family: 'inter tight';
+  width: 35vw;
+  margin-left: 440px;
+}
+#insta2{
+  color: red;
+  font-family: 'vt323';
+  font-size: 20px;
 }
 .homebox{
   height: auto;

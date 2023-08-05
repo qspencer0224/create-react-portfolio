@@ -14,6 +14,10 @@ function Contact() {
       <div className="gmail">GMAIL</div>
       <div id='gmail1'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptatem at quisquam.</div>
       <div id='gmail2'>randomgmail@gmail.com</div>
+      <div className="insta">INSTAGRAM</div>
+      <div id='insta1'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit commodi perspiciatis iusto ipsum ex molestias eos doloremque dolores mollitia aperiam!</div>
+      <div id='insta2'>@ techinsta</div>
+
     </div>
   )
 }
