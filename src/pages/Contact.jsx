@@ -11,6 +11,9 @@ function Contact() {
       <div id='discord1'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque vero exercitationem quas quae nesciunt perferendis maiores asperiores aut dolor possimus porro dicta amet, ex omnis incidunt officiis vitae maxime soluta.</div>
       <div id='discord2'>discord.com/channels/123456789</div>
       <div id='discord1'></div>
+      <div className="gmail">GMAIL</div>
+      <div id='gmail1'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptatem at quisquam.</div>
+      <div id='gmail2'>randomgmail@gmail.com</div>
     </div>
   )
 }

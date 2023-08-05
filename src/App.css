@@ -147,9 +147,27 @@ p{
   height: 100%;
   width: 100%;
 }
+#discord1{
+  width: 35vw;
+  margin-left: 450px;
+  font-family: 'inter tight';
+}
+#discord2{
+  font-family: 'vt323';
+  font-size: 20px;
+  color: red;
+}
 .discord{
-  font-family: 'gugi';
+  margin-top: 50px;
+  font-family: 'gasoek one';
   font-size: 30px;
+  color: #5865f2;
+}
+.gmail{
+  font-family: 'gasoek one';
+  font-size: 30px;
+  color: lightseagreen;
+  overflow-y: scroll;
 }
 .homebox{
   height: auto;
