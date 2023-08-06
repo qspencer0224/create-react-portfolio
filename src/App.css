@@ -22,20 +22,24 @@
   height: 100%;
   width: 100%;
 }
+.godbox{
+  border: solid lime;
+  display: flex;
+  width: 15vw;
+  margin-bottom: 500px;
+  z-index: 200;
+}
 .dot{
-  margin-top: 5px;
   border: solid red;
-  background-color: red;
   height: 1px;
-  width: 2px;
+  width: 1px;
   border-radius: 100%;
+  margin-top: 8px
 }
 .god{
-  color: beige;
-  font-size: 12px;
-  margin-left: 5px;
-  font-family: 'inter tight wght@200';
-
+  border: solid purple;
+  margin-left: 4px;
+  margin-bottom: 200px;
 }
 p{
   color: white;
@@ -321,20 +325,19 @@ p{
   font-size: 15px;
   font-family: 'bebas neue';
 }
+.eh{
+  color: red;
+  font-size: 15px;
+  font-family: 'bebas neue';
+}
 .email{
   font-size: 15px;
   color: black;
   font-family: 'bebas neue';
 }
 .logo{
-  border: solid brown;
-  height: 8vh;
-  animation: circle;
-  animation-duration: 5s;
-}
-@keyframes circle{
-  100%{transform: rotateZ(360deg)
-}
+  margin-top: 30px;
+  height: 6vh;
 }
 #logo{
   height: 100%;
