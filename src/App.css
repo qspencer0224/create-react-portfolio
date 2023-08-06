@@ -61,14 +61,21 @@ body{
   background-size: cover;
 }
 .bottombox{
-  border: solid green;
   display: flex;
+  justify-content: space-between;
+  height: 8vh;
 }
 .bottomtext{
-  border: solid purple;
   color: red;
   font-family: 'gasoek one';
   font-size: 30px;
+}
+.bottomlogo{
+  height: 6vh;
+}
+#bottomlogo{
+  height: 100%;
+  width: 100%;
 }
 
 .dot{
@@ -146,13 +153,13 @@ p{
 }
 #community{
   color: black;
-  font-family: "rock 3d";
-  font-size: 100px;
+  font-family: "parisienne";
+  font-size: 80px;
 }
 .boondocks{
   width: 35vw;
   margin-left: 420px;
-  margin-top: 50px;
+  margin-top: 20px;
   height: 40vh;
   border: solid black;
   border-width: .1em;
@@ -207,7 +214,7 @@ p{
   font-size: 80px;
 }
 ul{
-  box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.63);
+  box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.404);
   margin: 20px;
   display: flex;
   flex-wrap: wrap;
@@ -219,18 +226,26 @@ ul{
 }
 .title{
   height: auto;
-  color: red;
   font-family: "gasoek one";
   font-size: 65px;
 }
+.evening{
+  height: 45vh;
+  width: 35vw;
+  margin-left: 430px;
+}
+#evening{
+  height: 100%;
+  width: 100%;
+}
 #art{
-  color: red;
-  font-family: 'gasoek one';
-  font-size: 40px;
+  color: black;
+  font-family: 'parisienne';
+  font-size: 80px;
 }
 #contact{
-  font-family: 'gruppo';
-  font-size: 100px;
+  font-family: 'parisienne';
+  font-size: 80px;
 }
 .discordbox{
   height: 8vh;

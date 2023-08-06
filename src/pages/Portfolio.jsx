@@ -21,8 +21,7 @@ function Portfolio() {
   return (
     <div>
       <Nav_UI/>
-      <div className="title" id='art'>GOD IS SOMEWHERE IN THE ART</div>
-      <div className="portfolio">portfolio/the manifestations</div>
+      <div className="title" id='art'>Portfolio/The Manifestations</div>
       <ul>
         {projects.map((project) => (
           <ul key={project.id}>
@@ -30,6 +29,12 @@ function Portfolio() {
           </ul>
         ))}
       </ul>
+      <div className="bottombox">
+          <div className="bottomtext">GOD IS SOMEWHERE IN THE CHAOS</div>
+          <div className="bottomlogo">
+            <img src='https://cdn-icons-png.flaticon.com/512/4257/4257487.png' alt='' id='bottomlogo' />
+          </div>
+        </div>
     </div>
   );
 }

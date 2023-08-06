@@ -6,7 +6,7 @@ function Contact() {
   return (
     <div className='contactBackground'>
       <Nav_UI/>
-      <div className='title' id='contact'>CONTACT</div>
+      <div className='title' id='contact'>Contact</div>
       <div className="discord">DISCORD</div>
       <div id='discord1'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque vero exercitationem quas quae nesciunt perferendis maiores asperiores aut dolor possimus porro dicta amet, ex omnis incidunt officiis vitae maxime soluta.</div>
       <div id='discord2'>discord.com/channels/123456789</div>

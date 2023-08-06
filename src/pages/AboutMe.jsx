@@ -19,7 +19,7 @@ function AboutMe() {
         <div className="bottombox">
           <div className="bottomtext">GOD IS SOMEWHERE IN THE CHAOS</div>
           <div className="bottomlogo">
-            <img src='' alt='' id='bottomlogo' />
+            <img src='https://cdn-icons-png.flaticon.com/512/4257/4257487.png' alt='' id='bottomlogo' />
           </div>
         </div>
 

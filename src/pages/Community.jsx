@@ -6,7 +6,7 @@ function Community() {
   return (
     <div className='communityBackground'>
         <Nav_UI/>
-        <div className="title" id='community'>COMMUNITY</div>
+        <div className="title" id='community'>Community</div>
         <div className="boondocks">
             <img src='https://64.media.tumblr.com/97d19195cf53c0419ed1bb19aaa3f3a3/tumblr_mpy5n2Xv9H1rgam01o1_500.gif' alt='' id='boondocks' />
         </div>
@@ -33,7 +33,14 @@ function Community() {
             <img src='https://i.ytimg.com/vi/tp4FGAv2gks/maxresdefault.jpg' alt='' id='responsibility' />
         </div>
         <div className="more">more coming soon</div>
+        <div className="bottombox">
+          <div className="bottomtext">GOD IS SOMEWHERE IN THE CHAOS</div>
+          <div className="bottomlogo">
+            <img src='https://cdn-icons-png.flaticon.com/512/4257/4257487.png' alt='' id='bottomlogo' />
+          </div>
+        </div>
     </div>
+    
   )
 }
 
