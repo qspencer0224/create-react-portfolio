@@ -49,6 +49,28 @@ body{
   font-size: 20px;
   margin-left: 200px;
 }
+#projectbox{
+  border-width: .1em;
+  color: black;
+  font-stretch: condensed;
+  text-align: center;
+  width: 8vw;
+  height: 30vh;
+  background-image: url(https://static01.nyt.com/images/2019/12/23/nyregion/00nylights3/00nylights3-articleLarge.jpg?quality=75&auto=webp&disable=upscale);
+  background-position: center;
+  background-size: cover;
+}
+.bottombox{
+  border: solid green;
+  display: flex;
+}
+.bottomtext{
+  border: solid purple;
+  color: red;
+  font-family: 'gasoek one';
+  font-size: 30px;
+}
+
 .dot{
   border: solid red;
   height: 1px;
@@ -73,6 +95,15 @@ p{
   height: 60vh;
   margin-left: 350px;
 }
+.painting{
+  width: 25vw;
+  height: 60vh;
+  margin-left: 490px;
+}
+#painting{
+  height: 100%;
+  width: 100%;
+}
 #p1{
   border: solid purple;
   color: red ;
@@ -80,19 +111,19 @@ p{
 }
 #about{
   color: black;
-  font-family: 'oswald';
+  font-family: 'parisienne';
+  font-size: 80px;
 }
 .aboutbox{
   border-bottom: solid black;
   border-width: .1em;
-  height: 60vh;
   margin: 10px;
   width: 55vw;
   margin-left: 300px;
 }
 .aboutp1{
   color: black;
-  font-size: 55px;
+  font-size: 35px;
   font-family: 'vt323';
 }
 .aboutp2{
@@ -102,13 +133,13 @@ p{
   margin-top: 20px;
 }
 .aboutp3{
-  margin-top: 30px;
+  margin-top: 10px;
   color: black;
-  font-size: 20px;
+  font-size: 15px;
   font-family: 'inter tight';
 }
 .aboutp4{
-  margin-top: 50px;
+  margin-top: 30px;
   color: black;
   font-size: 20px;
   font-family: 'unbounded';
@@ -175,11 +206,27 @@ p{
   font-family: 'rock 3d';
   font-size: 80px;
 }
+ul{
+  box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.63);
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-family: 'oswald';
+  background-image: url(https://d3d00swyhr67nd.cloudfront.net/w800h800/collection/NMM/NMMG/NMM_NMMG_BHC4148-001.jpg);
+  background-size: contain;
+  background-position: center;
+}
 .title{
   height: auto;
-  color: black;
+  color: red;
   font-family: "gasoek one";
   font-size: 65px;
+}
+#art{
+  color: red;
+  font-family: 'gasoek one';
+  font-size: 40px;
 }
 #contact{
   font-family: 'gruppo';
