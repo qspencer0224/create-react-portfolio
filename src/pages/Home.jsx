@@ -15,6 +15,9 @@ function Home() {
             <img src='https://cdn.britannica.com/24/3824-050-0F72B625/Hippopotamus-Hunt-canvas-Peter-Paul-Rubens-Alte.jpg' alt='' className='chaos' />
           </div>
           <div className="homeright">
+            <div className="flower">
+              <img src='' alt='' id='flower' />
+            </div>
             <div className="school">
               <img src='https://sharecharlotte.org/sites/default/files/Logo-Horizontal-Light.png' alt='' className='schoolpic' />
             </div>
@@ -29,11 +32,12 @@ function Home() {
               <img src='https://cdn-icons-png.flaticon.com/512/4257/4257487.png' alt='' id='logo' />
             </div>
           </div>
+          <div className="trees">
+            {/* <img src='https://i.makeagif.com/media/11-22-2015/IwkOTx.gif' alt='' id='trees' /> */}
+          </div>
         </div>
-        <div className="godbox">
-          <div className="dot"></div>
-          <div className="god">GOD</div>
-        </div>
+        <div className="somewhere">GOD IS SOMEWHERE IN THE CHAOS</div>
+        <div className="portfolio">a portfolio by Quenton Spencer</div>
         {/* <div className="bigbox">
           <div className="details">
             <div className="creative">-creative</div>

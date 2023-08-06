@@ -8,11 +8,19 @@
   justify-content: space-around;
   font-family: 'inter tight';
 }
+body{
+  background-color: beige;
+}
 .homebox{
   display: flex;
 }
 .homeright{
   width: 20vw;
+}
+.trees{
+  width: 20%;
+  background-image: url(https://j.gifs.com/y76pBw.gif);
+  background-size: cover;
 }
 .chaosbox{
   width: 60vw;
@@ -22,12 +30,24 @@
   height: 100%;
   width: 100%;
 }
+.somewhere{
+  font-family: 'gasoek one';
+  color: red;
+  font-size: 40px;
+  text-align: center;
+  width: 58vw;
+}
 .godbox{
   border: solid lime;
   display: flex;
   width: 15vw;
-  margin-bottom: 500px;
   z-index: 200;
+}
+.portfolio{
+  font-family: 'parisienne';
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 200px;
 }
 .dot{
   border: solid red;
@@ -192,13 +212,13 @@ p{
   color: red;
 }
 .discord{
-  margin-top: 50px;
+  margin-top: 10px;
   font-family: 'gasoek one';
   font-size: 30px;
   color: #5865f2;
 }
 .gmail{
-  margin-top: 50px;
+  margin-top: 10px;
   font-family: 'gasoek one';
   font-size: 30px;
   color: lightseagreen;
@@ -214,7 +234,7 @@ p{
   font-size: 20px;
 }
 .insta{
-  margin-top: 50px;
+  margin-top: 10px;
   font-family: 'gasoek one';
   font-size: 30px;
   color: rgb(255, 103, 15);
@@ -303,7 +323,6 @@ p{
   height: 100%;
 }
 .school{
-  margin-top: 200px;
   height: 8vh;
 }
 .schoolpic{
@@ -327,16 +346,25 @@ p{
 }
 .eh{
   color: red;
-  font-size: 15px;
+  font-size: 20px;
   font-family: 'bebas neue';
 }
+.flower{
+  background-color: brown;
+  width: 10vw;
+  margin: 5px;
+  margin-left: 70px;
+  height: 40%;
+  border-radius: 100%;
+}
+
 .email{
   font-size: 15px;
   color: black;
   font-family: 'bebas neue';
 }
 .logo{
-  margin-top: 30px;
+  margin-top: 10px;
   height: 6vh;
 }
 #logo{
