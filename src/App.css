@@ -139,6 +139,12 @@ p{
   font-family: 'dm sans';
   margin-top: 20px;
 }
+#resume{
+  font-family: 'inter tight';
+}
+.resume{
+  margin-top: 20px;
+}
 .aboutp3{
   margin-top: 10px;
   color: black;

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Nav_UI from '../components/Nav_UI'
+import Resume_UI from '../components/Resume_UI'
 
 function Contact() {
   return (
@@ -17,6 +18,7 @@ function Contact() {
       <div className="insta">INSTAGRAM</div>
       <div id='insta1'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit commodi perspiciatis iusto ipsum ex molestias eos doloremque dolores mollitia aperiam!</div>
       <div id='insta2'>@ techinsta</div>
+      <Resume_UI />
 
     </div>
   )
