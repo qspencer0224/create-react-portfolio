@@ -16,6 +16,9 @@ I put the styling to the side and focused on the functionality
 ## The Functionality
 "Functionality" is something that I'm developing in but  I still have a concept of. React Hooks like <strong>useContext</strong> and <strong>useEffect</strong> been my methods of operation.
 
+## Styling
+The idea actually came to while sitting in a drive-thru waiting for food and my thoughts were finally quiet. All I could think of was baroque art and how I wanted to include that into the project. I wanted something that would represent my state of mind at the time. 
+
 ## useState
 useState was used to pull each project from my github Api
 
